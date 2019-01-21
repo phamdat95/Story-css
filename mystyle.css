@@ -1,0 +1,83 @@
+body{margin: 0;}
+.list{
+    position: fixed;
+    top: 70px;
+    width: 220px;
+    height: 100%;
+    background: #28a745;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+h5{
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%);
+}
+.ad{
+    float: right;
+    height: 600px;
+    width: 150px;
+    top: 70px;
+    margin-top: 70px;
+    background-image: url("download.png");
+}
+.content{
+    float: left;
+    margin-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    width: 800px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header{
+    position: fixed;
+    height: 70px;
+    background: blue;
+    width: 100%;
+}
+img{
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+a{
+    padding-top: 24px;
+    padding-right: 16px;
+    color: white;
+    display: block;
+    float: right;
+}
+.title{
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background: orange;
+    padding: 4px;
+    border-radius: 20px;
+}
+.footer{
+    clear: both;
+    background: red;
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    overflow: auto;
+}
+.f1{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.f2{
+    position: relative;
+    float: right;
+}
